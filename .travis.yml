@@ -1,8 +1,6 @@
 language: node_js
-node_js:
-- "12"
-before_script:
-- npm install
+node_js: - "12"
+before_script: - npm install
 script: npm run build
 deploy:
 local-dir: dist/collegues-front
